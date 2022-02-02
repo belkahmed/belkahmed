@@ -16,6 +16,7 @@ public class ControleurTest {
         ListeProduit.add("produit 01");
         ListeProduit.add("produit 02");
         ListeProduit.add("produit 03");
+        ListeProduit.add("produit 04");
         return ResponseEntity.status(200).body(ListeProduit);
     }
 }
