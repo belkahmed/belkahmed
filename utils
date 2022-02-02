@@ -1,0 +1,8 @@
+docker run --name postgresProjetSeul -e POSTGRES_PASSWORD=admin -p 5432:5432 -d postgres
+
+
+
+docker ps
+docker ps -a
+docker start (ajouter l'id de la base)
+docker stop  (ajouter l'id de la base)
